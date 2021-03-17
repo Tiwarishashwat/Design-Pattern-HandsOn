@@ -1,0 +1,7 @@
+package com.st.abstractfactorypattern.day1;
+
+public abstract class Headlight {
+	public Headlight(String brand) {
+		System.out.println(brand+" Headlight made.");
+	}
+}
